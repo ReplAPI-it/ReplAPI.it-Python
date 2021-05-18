@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "replapi-it"
+version = "0.0.1"
+description = "ReplAPI-It for Python"
+authors = ["BD103 <dont@stalk.me>", "JBTY27"]
+license = "GPL-3.0-only"
+readme = "README.md"
+repository = "https://github.com/ReplAPI-it/Python-ReplAPI-It"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+
+[tool.poetry.dev-dependencies]
+isort = "^5.8.0"
+flake8 = "^3.9.2"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
