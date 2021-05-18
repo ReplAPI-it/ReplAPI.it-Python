@@ -3,18 +3,18 @@ Python package that mirrors the original Nodejs ReplAPI-It.
 
 ## Contributing
 
-1. Fork the repo:
+First fork the repo:
 
 ```shell
-$ git clone https://github.com/ReplAPI-it/Python-ReplAPI-It.$ poetry install
+$ git clone https://github.com/ReplAPI-it/Python-ReplAPI-It.git
+$ poetry install
 ```
 
-2. Edit the project
-3. Clean up:
+Second, edit the code. Third, clean up the project:
 
 ```shell
 $ isort .
 $ flake8
 ```
 
-4. Create a PR!
+Last, create a PR!
