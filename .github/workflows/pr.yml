@@ -14,6 +14,8 @@ jobs:
       
       - name: Setup Poetry
         uses: snok/install-poetry@v1.1.6
+        with:
+          virtualenvs-create: false
       
       - name: Install Dependencies
         run: python -m poetry install
