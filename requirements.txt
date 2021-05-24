@@ -1,4 +1,0 @@
-tox
-black
-isort
--e .
