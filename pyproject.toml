@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "replapi-it"
-version = "0.0.1"
+version = "1.0.0"
 description = "ReplAPI-It for Python"
 authors = ["BD103 <dont@stalk.me>", "JBTY27"]
 license = "GPL-3.0-only"
@@ -13,6 +13,7 @@ python = "^3.8"
 [tool.poetry.dev-dependencies]
 isort = "^5.8.0"
 flake8 = "^3.9.2"
+black = "^21.5b1"
 
 [build-system]
 requires = ["poetry>=0.12"]
