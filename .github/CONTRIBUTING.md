@@ -20,4 +20,4 @@ $ isort .
 $ black .
 ```
 
-Then create your PR. Thanks for helping!
+Then create your PR. All commits should follow [Conventional Commits](https://www.conventionalcommits.org). (Look at the commit history for examples.) Thanks for helping!
