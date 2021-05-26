@@ -1,3 +1,6 @@
+> **Notice:** Currently this project is just a framework. It does not work yet.
+> If you wan't to get updated when 1.0.0 is released, then click Watch -> Custom -> Releases -> Apply
+
 [![Contributors][contributors-shield]][contributors-url]
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
