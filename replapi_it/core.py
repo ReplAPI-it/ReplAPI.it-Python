@@ -1,5 +1,4 @@
-from .post import _Post
-from .user import _User
+from . import classes
 
 defaultInitVars = {"username": None}
 
@@ -12,5 +11,5 @@ class ReplAPI(object):
   def __init__(self, initVars: dict = {}):
     self.vars = {**defaultInitVars, **initVars}
 
-    self.User = _User
-    self.Post = _Post
+    self.User = classes.User
+    self.Post = classes.Post
