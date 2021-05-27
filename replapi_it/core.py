@@ -1,9 +1,7 @@
-from .post import _Post
-from .user import _User
+from post import _Post
+from user import _User
 
 defaultInitVars = {"username": None}
-
-
 class ReplAPI(object):
   """Base class for all ReplAPI-it features.
     Everything should be accessed through this class.
