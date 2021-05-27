@@ -1,5 +1,7 @@
 # Contributing
 
+> This is a quick guide to contributing. If you want more information on developing this project, then check out the [Wiki](https://github.com/ReplAPI-it/ReplAPI.it-Python/wiki).
+
 To contribute, first fork and clone.
 
 ```sh
@@ -15,9 +17,9 @@ $ poetry install
 Edit the code, then lint and test.
 
 ```sh
-$ flake8
-$ isort .
 $ black .
+$ isort .
+$ flake8
 ```
 
-Then create your PR. All commits should follow [Conventional Commits](https://www.conventionalcommits.org). (Look at the commit history for examples.) Thanks for helping!
+Create your PR is all the checks pass! All commits should follow [Conventional Commits](https://www.conventionalcommits.org). (Look at the commit history for examples.) Thanks for helping!
