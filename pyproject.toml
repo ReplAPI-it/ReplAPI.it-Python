@@ -9,6 +9,8 @@ repository = "https://github.com/ReplAPI-it/Python-ReplAPI-It"
 
 [tool.poetry.dependencies]
 python = "^3.8"
+jinja2 = "^3.0.1"
+requests = "^2.25.1"
 
 [tool.poetry.dev-dependencies]
 isort = "^5.8.0"
