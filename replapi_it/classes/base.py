@@ -1,7 +1,9 @@
-from jinja2 import Template
-import requests
-from .config import config
 import json
+
+import requests
+from jinja2 import Template
+
+from .config import config
 
 _query_template = """
 query Main({% for i in query_args %}{{ i }}: {{ query_args[i] }}, {% endfor %}) {
@@ -17,7 +19,7 @@ query Main({% for i in query_args %}{{ i }}: {{ query_args[i] }}, {% endfor %}) 
 
 _default_headers = {
   "X-Requested-With": "ReplAPI-It-Python",
-  "referrer": config["graphql_url"]
+  "referrer": config["graphql_url"],
 }
 
 
@@ -26,7 +28,10 @@ class BaseClass(object):
     self.vars = {**vars, **kwargs}
     self._query_args = {"$username": "String!"}
     self._types = {"userByUsername(username: $username)": ["fullName", "karma"]}
-    self._config = config
+
+  @property
+  def config(self) -> dict:
+    return config
 
   def query(self) -> str:
     tm = Template(_query_template)
@@ -35,12 +40,9 @@ class BaseClass(object):
 
   def collect(self):
     req = requests.post(
-      self._config["graphql_url"],
-      data={
-        "query": self.query(),
-        "variables": json.dumps(self.vars)
-      },
-      headers=_default_headers
+      self.config["graphql_url"],
+      data={"query": self.query(), "variables": json.dumps(self.vars)},
+      headers=_default_headers,
     )
 
     return req.text
