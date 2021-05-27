@@ -1,9 +1,36 @@
-class _Post(object):
-  def __init__(self, num: int):
-    """Get post data."""
-    self.num = num
+from .base import BaseClass
 
-  def postDataFull(self) -> dict:
-    # Grab post data, return dict
-    example = {"title": "Some title here"}
-    return example
+
+class Post(BaseClass):
+  def __init__(self, id: int, **kwargs):
+    self.vars = {**{"id": id}, **kwargs}
+    self._query_args = {"$id": "Int!"}
+    self._types = {
+      "post(id: $id)": [
+        "id",
+        "title",
+        "body",
+        "showHosted",
+        "voteCount",
+        "commentCount",
+        "isPinned",
+        "isLocked",
+        "timeCreated",
+        "timeUpdated",
+        "url",
+        "isAnnouncement",
+        "isAuthor",
+        "canEdit",
+        "canComment",
+        "canVote",
+        "canPin",
+        "canSetType",
+        "canChangeBoard",
+        "canLock",
+        "hasVoted",
+        "canReport",
+        "hasReported",
+        "isAnswerable",
+        "tutorialPages",
+      ]
+    }

@@ -1,9 +1,27 @@
-class _User(object):
-  def __init__(self, username: str):
-    """Get user data."""
-    self.username = username
+from .base import BaseClass
 
-  def userGraphQLDataFull(self) -> dict:
-    # Grab data, return info
-    example = {"karma": 102}
-    return example
+
+class User(BaseClass):
+  def __init__(self, username: str, **kwargs):
+    self.vars = {**{"username": username}, **kwargs}
+    self._query_args = {"$username": "String!"}
+    self._types = {
+      "userByUsername(username: $username)": [
+        "id",
+        "username",
+        "firstName",
+        "lastName",
+        "bio",
+        "isVerified",
+        "displayName",
+        "fullName",
+        "url",
+        "isLoggedIn",
+        "isSubscribed",
+        "timeCreated",
+        "isBannedFromBoards",
+        "karma",
+        "isHacker",
+        "image",
+      ]
+    }
