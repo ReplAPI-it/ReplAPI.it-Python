@@ -5,7 +5,7 @@ getCyclesQuery = """
 	karma
 """
 headers = {
-  'X-Requested-With': 'RayhanADev',
+  'X-Requested-With': 'ReplAPI-IT Team',
   'Referrer': 'https://staging.replit.com/'
 }
 url = 'https://staging.replit.com/graphql'
@@ -18,7 +18,7 @@ class _User(object):
     # example = {"karma": 102}
     # return example
     pass
-  def getCycles(self):
+  def getCycles(self) -> int:
     # Make body
     body = {'query': 'query UserData { userByUsername(username: "' + self.username + '") { ' + getCyclesQuery + ' } }'}
     # Get Data from graphql
