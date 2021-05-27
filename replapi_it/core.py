@@ -5,12 +5,12 @@ defaultInitVars = {"username": None}
 
 
 class ReplAPI(object):
-    """Base class for all ReplAPI-it features.
+  """Base class for all ReplAPI-it features.
     Everything should be accessed through this class.
     Do not import anything else unless you know what you are doing."""
 
-    def __init__(self, initVars: dict = {}):
-        self.vars = {**defaultInitVars, **initVars}
+  def __init__(self, initVars: dict = {}):
+    self.vars = {**defaultInitVars, **initVars}
 
-        self.User = _User
-        self.Post = _Post
+    self.User = _User
+    self.Post = _Post

@@ -13,12 +13,13 @@ python = "^3.8"
 [tool.poetry.dev-dependencies]
 isort = "^5.8.0"
 flake8 = "^3.9.2"
-black = "^21.5b1"
+2black = { git = "https://github.com/BD103/2black", branch = "main" }
+
+[tool.isort]
+profile = "black"
+multi_line_output = 3
 
 [build-system]
 requires = ["poetry>=0.12"]
 build-backend = "poetry.masonry.api"
 
-[tool.isort]
-profile = "black"
-multi_line_output = 3
