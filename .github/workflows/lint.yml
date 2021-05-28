@@ -1,0 +1,23 @@
+name: Lint
+
+on:
+  push:
+    paths-ignore:
+      - "*.md"
+  
+  pull_request:
+    paths-ignore:
+      - "*.md"
+
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-python@v2
+
+      - name: Install Ballad
+        run: pip install -U ballad
+      
+      - name: Install Depedencies
+        run: python -m ballad install
