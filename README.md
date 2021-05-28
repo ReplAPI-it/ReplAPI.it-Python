@@ -178,8 +178,9 @@ Distributed under the GPL-3.0 License. See `LICENSE` for more information.
 
 ## Contact
 
-- BD103 - [@BD103](https://replit.com/@BD103) - contact-method
+- BD103 - [@BD103](https://replit.com/@BD103) - dont@stalk.me
 - JBYT27 - [@JBYT27](https://replit.com/@JBYT27) - Discord: JBYT27#5634
+- Darkdarcool - [@Darkdarcool](https://replit.com/@darkdarcool) - Contact Somehow
 - RayhanADev - [@RayhanADev](https://replit.com/@RayhanADev) - rayhanadev@protonmail.com
 
 Project Link: [https://github.com/ReplAPI-it/ReplAPI.it-Python](https://github.com/ReplAPI-it/ReplAPI.it-Python)
