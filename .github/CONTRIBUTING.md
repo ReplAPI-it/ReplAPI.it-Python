@@ -2,7 +2,7 @@
 
 > This is a quick guide to contributing. If you want more information on developing this project, then check out the [Wiki](https://github.com/ReplAPI-it/ReplAPI.it-Python/wiki).
 
-Contributing is open and welcome here are ReplAPI.it-Python, but there are a few rules below to follow! You are planning to contribute, there are a few preparations and rules to follow that are below, please take time to read them!
+Contributing is open and welcome here are ReplAPI.it-Python, but there are a few rules below to follow! You are planning to contribute, there are a few rules and preparations to follow! Please take time to read them!
 
 To contribute, first fork and clone.
 
