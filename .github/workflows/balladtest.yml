@@ -1,0 +1,30 @@
+name: Ballad Test
+
+on:
+  push:
+    branches: [master]
+  
+  pull_request:
+    branches: [master]
+
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-python@v2
+
+      - name: Install Ballad
+        run: pip install -U ballad
+      
+      - name: Install Depedencies
+        run: python -m ballad install -D
+      
+      - name: Check with Black
+        run: python -m black --check .
+      
+      - name: Check with Isort
+        run: python -m isort --check .
+      
+      - name: Lint with Flake8
+        run: python -m flake8
