@@ -1,14 +1,14 @@
 > **Notice:** Currently this project is just a framework. It does not work yet.
 > If you wan't to get updated when 1.0.0 is released, then click Watch -> Custom -> Releases -> Apply
 
-[![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
-[![MIT License][license-shield]][license-url]
-[![Downloads][downloads-shield]][downloads-url]
- 
-[![Ballad Test](https://github.com/ReplAPI-it/ReplAPI.it-Python/actions/workflows/balladtest.yml/badge.svg)](https://github.com/ReplAPI-it/ReplAPI.it-Python/actions/workflows/balladtest.yml)
+[![Contributors](https://img.shields.io/github/contributors/ReplAPI-it/ReplAPI.it-Python?style=for-the-badge)](https://github.com/ReplAPI-it/ReplAPI.it-Python/graphs/contributors)
+[![Forks](https://img.shields.io/github/forks/ReplAPI-it/ReplAPI.it-Python?style=for-the-badge)](https://github.com/ReplAPI-it/ReplAPI.it-Python/network/members)
+[![Stargazers](https://img.shields.io/github/stars/ReplAPI-it/ReplAPI.it-Python?style=for-the-badge)](https://github.com/ReplAPI-it/ReplAPI.it-Python/stargazers)
+[![Issues](https://img.shields.io/github/issues/ReplAPI-it/ReplAPI.it-Python?style=for-the-badge)](https://github.com/ReplAPI-it/ReplAPI.it-Python/issues)
+[![License](https://img.shields.io/github/license/ReplAPI-it/ReplAPI.it-Python?style=for-the-badge)](https://github.com/ReplAPI-it/ReplAPI.it-Python/blob/master/LICENSE)
+[![Downloads on PyPI](https://img.shields.io/pypi/dw/replapi-it?style=for-the-badge)](https://pypi.org/project/replapi-it/)
+[![Ballad Test](https://img.shields.io/github/workflow/status/ReplAPI-it/ReplAPI.it-Python/Ballad%20Test?style=for-the-badge)](https://github.com/ReplAPI-it/ReplAPI.it-Python/actions/workflows/balladtest.yml)
+
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
