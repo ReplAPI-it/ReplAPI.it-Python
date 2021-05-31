@@ -175,7 +175,7 @@ Contributions are **much appreciated**, and if you have a cool idea that feels r
 
 ## License
 
-Distributed under the GPL-3.0 License. See `LICENSE` for more information.
+Distributed under the GPL-3.0 License. See [`LICENSE`](https://github.com/ReplAPI-it/ReplAPI.it-Python/blob/master/LICENSE) for more information.
 
 ## Contact
 
