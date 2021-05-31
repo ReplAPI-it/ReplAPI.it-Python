@@ -17,7 +17,7 @@ jobs:
       - name: Install Ballad
         run: pip install -U ballad
       
-      - name: Install Depedencies
+      - name: Install Dependencies
         run: python -m ballad install -D
       
       - name: Check with Black
