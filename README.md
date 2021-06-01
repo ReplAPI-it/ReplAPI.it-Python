@@ -1,5 +1,5 @@
-> **Notice:** Currently this project is just a framework. It does not work yet.
-> If you wan't to get updated when 1.0.0 is released, then click Watch -> Custom -> Releases -> Apply
+> **Notice:** Currently this project is just a framework. It does not work yet.  
+> If you want to get updated when 1.0.0 is released, then click Watch -> Custom -> Releases -> Apply
 
 [![Contributors](https://img.shields.io/github/contributors/ReplAPI-it/ReplAPI.it-Python?style=for-the-badge)](https://github.com/ReplAPI-it/ReplAPI.it-Python/graphs/contributors)
 [![Forks](https://img.shields.io/github/forks/ReplAPI-it/ReplAPI.it-Python?style=for-the-badge)](https://github.com/ReplAPI-it/ReplAPI.it-Python/network/members)
