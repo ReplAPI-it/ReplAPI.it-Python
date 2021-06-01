@@ -1,4 +1,4 @@
-name: Ballad Test
+name: Lint
 
 on:
   push:
