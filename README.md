@@ -181,7 +181,7 @@ Distributed under the GPL-3.0 License. See [`LICENSE`](https://github.com/ReplAP
 
 - BD103 - [@BD103](https://replit.com/@BD103) - dont@stalk.me
 - JBYT27 - [@JBYT27](https://replit.com/@JBYT27) - Discord: JBYT27#5634
-- Darkdarcool - [@Darkdarcool](https://replit.com/@darkdarcool) - darkdarcool@gmail.com
+- darkdarcool - [@Darkdarcool](https://replit.com/@darkdarcool) - darkdarcool@gmail.com
 - RayhanADev - [@RayhanADev](https://replit.com/@RayhanADev) - rayhanadev@protonmail.com
 
 Project Link: [https://github.com/ReplAPI-it/ReplAPI.it-Python](https://github.com/ReplAPI-it/ReplAPI.it-Python)
