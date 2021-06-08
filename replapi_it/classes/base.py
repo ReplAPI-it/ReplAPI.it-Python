@@ -38,7 +38,7 @@ class BaseClass(object):
 
     return tm.render(query_args=self._query_args, types=self._types)
 
-  def collect_json(self):
+  def collect_raw(self):
     req = requests.post(
       self.config["graphql_url"],
       data={"query": self.query(), "variables": json.dumps(self.vars)},
