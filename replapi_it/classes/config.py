@@ -1,7 +1,7 @@
 import json
 import os
 
-default = {"graphql_url": "https://staging.replit.com/graphql"}
+default = {"graphql_url": "https://replit.com/graphql"}
 
 
 def _config(filename: str = "replapi_it.json") -> dict:
