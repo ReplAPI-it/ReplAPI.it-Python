@@ -48,4 +48,4 @@ class BaseClass(object):
     return req.text
 
   def collect(self):
-    return json.loads(self.collect_json())
+    return json.loads(self.collect_raw())
