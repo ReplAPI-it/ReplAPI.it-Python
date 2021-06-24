@@ -15,7 +15,7 @@ jobs:
       - uses: actions/setup-python@v2
 
       - name: Install Ballad
-        run: pip install -U ballad==2.0.0a2
+        run: pip install -U ballad
       
       - name: Install Dependencies
         run: python -m ballad install
